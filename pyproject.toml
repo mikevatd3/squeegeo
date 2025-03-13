@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "squeegeo"
+version = "0.1.0"
+description = "Turn sql queries on postgis to geojson very quickly."
+authors = ["mikevatd3 <mikevatd3@github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+click = "^8.1.8"
+tomli = "^2.2.1"
+geopandas = "^1.0.1"
+geoalchemy = "^0.7.2"
+psycopg = "^3.2.6"
+
+[tool.poetry.scripts]
+squeegeo = "squeegeo:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
