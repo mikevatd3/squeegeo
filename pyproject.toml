@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "squeegeo"
-version = "0.1.0"
+version = "0.1.2"
 description = "Turn sql queries on postgis to geojson very quickly."
 authors = ["mikevatd3 <mikevatd3@github.com>"]
 license = "MIT"
